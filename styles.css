@@ -8,38 +8,48 @@ body {
   justify-content: center;
   gap: 20px;
 }
-
 h1 {
   color: goldenrod;
 }
-
 #message-el {
   font-style: italic;
   font-size: xx-large;
-  color: white;
-}
+  color: white;  
+}  
+.input {  
+    font-weight: bold;  
+    color: whitesmoke;  														    }  
 
-.input {
-  font-weight: bold;
-  color: whitesmoke;
-}
+ .btn {  
 
-.btn {
-  font-weight: bold;
-  width: 150px;
-  font-size: large;
-  border-radius: 8px;
-  padding: 8px 20px;
-}
+    font-weight: bold;  
 
-.btn:hover {
-  background-color: goldenrod;
-  cursor: pointer;
-  transition: 150ms;
-}
+    width: 150px;  
 
-#player-el {
-  font-weight: bold;
-  color: white;
-  font-size: x-large;
-}
+    font-size: large;  
+
+    border-radius: 8px;  
+
+    padding: 8px 20px;
+
+    transition : 150ms ease all ;    
+
+ }    
+
+ .btn :hover{    
+
+     background : goldenrod ;    
+
+     cursor : pointer ;     
+
+ }     
+
+ #player - el{     
+
+     font - weight : bold ;     
+
+     color : white ;     
+
+     font - size : x - large ;      
+
+ }
